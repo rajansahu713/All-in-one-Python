@@ -1,10 +1,24 @@
 <h1 align="center">ALL in One</h1>
 
-## Aim of creating this repos is to show case the various of things python do
+<h3>Aim of creating this repos is to show various of application of python.</h3>
 
-#### 1. In audio_to_text.py file I am just converting the recorded Audio file to Text. We achieve this by using "SpeechRecognition" package and command for installing it "pip install SpeechRecognition".</p>
+1. audio_to_text.py
+    
+    Using this script, I am just converting the recorded Audio file to Text. We achieve this by using "SpeechRecognition" package.
+    
+Requirement         
+```python
+ pip install SpeechRecognition 
+```
 
-#### 2. In text_to_audio.py file  I am just converting the recorded Text to Audio file. We achieve this by using "gTTS" package and command for installing it "pip install gTTS".
+2. text_to_audio.py 
+
+    Using this script, I am converting Text to Audio file. We achieve this by using "gTTS" package.
+
+Requirement
+```python
+pip install gTTS
+```
 
 
 
