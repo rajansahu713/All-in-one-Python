@@ -18,3 +18,37 @@ Check out the [Python-Build-in-Functions] directory for all the build in functio
     * Returns absolute value of a number 
     * If the result is negative, it will be converted to positive
     * If number is complex number, it will return the magnitude
+
+* **all()** 
+    * Returns True if all elements of the iterable are true
+    * If the iterable is empty, returns True
+    * If any element in an iterable is false, returns False
+
+* **any()** 
+    * Returns True if any element of the iterable is true
+    * If the iterable is empty, returns False
+    * If all elements in an iterable are false, returns False
+
+* **bin()** 
+    * Converts an integer number to a binary string
+    * The **bin** funtion return **bin(5)**: 0b101 , The prefix 0b represents that the result is a binary string.
+
+* **filter()**
+    * The filter() function takes two arguments:
+        * function - a function
+        * iterable - (sets, lists, tuples etc.)
+    * The function returns an iterator were the items are filtered through a function to test if the item is accepted or not.
+
+
+
+* **len()**
+    * Returns the length of the object
+
+* **max()**
+    * Returns the largest item in an iterable or the largest of two or more keyed items
+
+* **min()**
+    * Returns the smallest item in an iterable or the smallest of two or more keyed items
+
+* **round()**
+    * Returns the value of x rounded to n digits to the right of the decimal point
