@@ -9,13 +9,21 @@ def getTodayDate(timeZone):
     timezone = pytz.timezone(timeZone)
     return datetime.now(timezone).date()
 
-def getCurrentTime(timeZone):
+def getCurrentTime24(timeZone):
     '''
     Please provide Time zone
     Get the Current Time
     '''
     timezone = pytz.timezone(timeZone)
     return datetime.now(timezone).strftime("%H:%M:%S")
+    
+def getCurrentTime12(timeZone):
+    '''
+    Please provide Time zone
+    Get the Current Time
+    '''
+    timezone = pytz.timezone(timeZone)
+    return datetime.now(timezone).strftime('%I:%M:%S %p')
 
 def getDatetime(timeZone):
     '''
@@ -34,6 +42,10 @@ def getAllTimeZone():
 
 
 
-print(getCurrentTime('Asia/Kolkata'))
-print(getTodayDate(('America/New_York')))
+# print(get_month_days(datetime.date(2014, 1, 31)))
+# print(getCurrentTime('Asia/Kolkata'))
+# print(getTodayDate(('America/New_York')))
+# print(getAllTimeZone())
+
+print(getCurrentTime12('Asia/Kolkata'))
  
