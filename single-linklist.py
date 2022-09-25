@@ -1,17 +1,11 @@
-
-from dis import code_info
-
-
 class Node:
     def __init__(self, data = None, next=None): 
         self.data = data
         self.next = next
 
-
 class LinkedList:
     def __init__(self):  
-        self.head = None
-    
+        self.head = None    
   
     def insert(self, data):
         newNode = Node(data)
@@ -69,6 +63,30 @@ class LinkedList:
         while(current):
             print(current.data)
             current = current.next
+    
+    def deleteFromAnyPosition(self,position):
+        if(self.head):
+            count = 1
+            if count ==position:
+                temp= self.head.next    
+                self.head = None
+                self.head = temp
+                current = self.head
+            else:
+                current = self.head
+            if current!= None:
+                while(current.next):
+                    count+=1
+                    if count ==position:
+                        temp = current.next.next
+                        current.next = None
+                        current.next = temp
+                    else:
+                        current = current.next
+                if count < position:
+                    print("Position is out of linklist")
+        else:
+            print("linklist is already Empty")
 
 
 
@@ -83,4 +101,5 @@ LL.insert(7)
 LL.InsertAnyposition(11,1)
 LL.InsertAnyposition(23,3)
 LL.delete()
+LL.deleteFromAnyPosition(3)
 LL.printLL()
