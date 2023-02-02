@@ -5,7 +5,7 @@ import time
 pen = turtle.Turtle()
 
 def curve():
-    for i in range(200):
+    for i in range(100):
         pen.right(1)
         pen.forward(1)
 def heart():
