@@ -11,7 +11,7 @@
 * Suppose when a method for two number division
 ```python
 def twoNumberDevision(a, b):
-    return a/b
+    print(a/b)
 ```
 
 * If i called the method with a=3 and b=0, then what will happen 
