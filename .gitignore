@@ -1,0 +1,19 @@
+# pdf
+A.pdf
+project.pdf
+
+#png
+myqr.png
+myqr.svg
+
+main
+barcode
+
+# mp3
+welcome.mp3
+welcome.wav
+speaker.wav
+
+
+# Azure connection
+connect-azure-sql.py
