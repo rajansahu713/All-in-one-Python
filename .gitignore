@@ -17,3 +17,24 @@ speaker.wav
 
 # Azure connection
 connect-azure-sql.py
+
+
+# enviroment
+.env
+
+# file
+*.png
+*.svg
+*.pdf
+*.wav
+*.csv
+*.txt
+*.json
+*.log
+# __pycache
+__pycache__
+
+# 
+.ipynb_checkpoint
+
+Not_Git_things
